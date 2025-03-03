@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Architecture Photo Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 10px;
+            padding: 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            transition: transform 0.3s ease;
+        }
+        .gallery img:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <h1>Architecture Photo Gallery</h1>
+    <div class="gallery">
+       <img src="1.jpeg" alt="Architecture Image 1" height=150px width=150px>
+<img src="2.jpeg" alt="Architecture Image 2" height=150px width=150px>
+<img src="3.jpeg" alt="Architecture Image 3" height=150px width=150px>
+<img src="4.jpeg" alt="Architecture Image 4" height=150px width=150px>
+<img src="5.jpeg" alt="Architecture Image 5" height=150px width=150px>
+<img src="6.jpeg" alt="Architecture Image 6" height=150px width=150px>
+<img src="7.jpeg" alt="Architecture Image 7" height=150px width=150px>
+<img src="8.jpeg" alt="Architecture Image 8" height=150px width=150px>
+
+<img src="9.jpeg" alt="Architecture Image 9" height=150px width=150px>
+
+<img src="10.jpeg" alt="Architecture Image 10" height=150px width=150px>
+
+<img src="11.jpeg" alt="Architecture Image 11" height=150px width=150px>
+
+<img src="12.jpeg" alt="Architecture Image 12" height=150px width=150px>
+
+<img src="13.jpeg" alt="Architecture Image 13" height=150px width=150px>
+
+<img src="14.jpeg" alt="Architecture Image 14" height=150px width=150px>
+
+<img src="15.jpeg" alt="Architecture Image 15" height=150px width=150px>
+
+<img src="16.jpeg" alt="Architecture Image 16" height=150px width=150px>
+
+<img src="17.jpeg" alt="Architecture Image 17" height=150px width=150px>
+
+<img src="18.jpeg" alt="Architecture Image 18" height=150px width=150px>
+
+<img src="19.jpeg" alt="Architecture Image 19" height=150px width=150px>
+
+<img src="20.jpeg" alt="Architecture Image 20" height=150px width=150px>
+
+
+
+            </div>
+</body>
+</html>
