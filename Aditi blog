@@ -1,0 +1,137 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+
+<head> 
+	<meta charset="UTF-8"> 
+	<meta name="viewport" content= 
+		"width=device-width, initial-scale=1.0"> 
+	<style> 
+		body { 
+			font-family: Arial, sans-serif; 
+			margin: 0; 
+			padding: 0; 
+		} 
+
+		header { 
+			background-color: #ffffff; 
+			color: #000000; 
+			text-align: center; 
+		} 
+
+		nav { 
+			background-color: #242424; 
+			padding: 10px; 
+		} 
+
+		nav a { 
+			color: #fff; 
+			text-decoration: none; 
+			padding: 10px; 
+			margin-right: 10px; 
+			display: inline-block; 
+		} 
+
+		.container { 
+			display: flex; 
+			justify-content: space-between; 
+			max-width: 95%; 
+			margin: 0 auto; 
+			padding: 20px; 
+		} 
+
+		article p { 
+			text-align: justify; 
+		} 
+
+		main { 
+			flex: 2; 
+		} 
+
+		article { 
+			margin-bottom: 20px; 
+			padding: 10px 20px; 
+			border: 1px solid rgb(145, 145, 145); 
+			margin-right: 10px; 
+		} 
+
+		aside { 
+			flex: 1; 
+			background-color: #c9c9c9; 
+			padding: 10px; 
+		} 
+
+		footer { 
+			background-color: #242424; 
+			color: #fff; 
+			text-align: center; 
+			position: fixed; 
+			bottom: 0; 
+			width: 100%; 
+		} 
+	</style> 
+	<title> women health </title> 
+</head> 
+
+<body> 
+	<header> 
+		<h1>women health</h1> 
+		<p>Empowering Women's Health: Key Insights for a Balanced Life</p> 
+	</header> 
+
+	<nav> 
+		<a href="#">Home</a> 
+		<a href="#">Nutrition</a> 
+		<a href="#">mental health</a> 
+		<a href="#">Reproductive health</a> 
+		<a href="#">Physical activities</a> 
+	</nav> 
+
+	<div class="container"> 
+		<main> 
+			<article> 
+				<h2>nutrition</h2> 
+                                 <img src="C:\Users\Zen\Downloads\nutri.jpeg" alt="Description of image">
+								<p> 
+					Nutrition plays a critical role in maintaining a healthy body, and for women, certain nutrients become even more essential at different stages of life. For instance, women of childbearing age need sufficient iron due to menstruation, while women over 50 require more calcium and vitamin D for bone health.
+				</p> 
+			</article> 
+
+			<article> 
+				<h2>Mental health</h2> 
+				<img src="C:\Users\Zen\Downloads\mental.jpeg" alt="Description of image">
+				<p> Mental health is an area that is often overlooked but is equally as important as physical health. Women face a variety of emotional and psychological challenges, from hormonal fluctuations during menstruation, pregnancy, and menopause, to the stress of balancing career, family, and personal life. These factors can contribute to anxiety, depression, and burnout.
+									</p> 
+			</article> 
+
+			<article> 
+				<h2>Reproductive health</h2> 
+				<img src="C:\Users\Zen\Downloads\repro.jpeg" alt="Description of image">
+				<p> 
+					 Reproductive health is a central topic for women, and yet it remains an area often surrounded by confusion or misinformation. Women’s reproductive health involves everything from menstruation and fertility to pregnancy and menopause.
+				</p> 
+			</article> 
+
+			<article> 
+				<h2>Physical activity</h2> 
+				<img src="C:\Users\Zen\Downloads\physi.jpeg" alt="Description of image">
+				<p> Exercise is essential for everyone, but for women, it provides additional benefits. Regular physical activity helps prevent chronic conditions like heart disease, diabetes, and obesity while boosting mental health. It also strengthens bones and muscles, which is particularly important as women age.
+								</article> 
+		</main> 
+
+		<aside> 
+			<h2>Recent Posts</h2> 
+			<ul> 
+				<li><a href="#"> Nutrition</a></li> 
+				<li><a href="#">mental health</a></li> 
+				<li><a href="#">reproductive health</a></li> 
+				<li><a href="#">physical activities</a></li> 
+			</ul> 
+		</aside> 
+	</div> 
+
+	<footer> 
+		<p>© 2023 women health rights. All rights reserved.</p> 
+	</footer> 
+</body> 
+
+</html>g on
